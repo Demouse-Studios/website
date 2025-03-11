@@ -1,0 +1,23 @@
+<html>
+<iframe 
+src="https://i.simmer.io/@demouse/the-below-web1" 
+width="960" 
+height="600" 
+allowfullscreen 
+allow="geolocation; 
+microphone; camera; 
+midi;
+encrypted-media;
+gamepad; 
+accelerometer; 
+gyroscope; 
+xr-spatial-tracking; 
+clipboard-read; 
+clipboard-write;
+cross-origin-isolated; 
+autoplay"  
+referrerpolicy="strict-origin-when-cross-origin" 
+frameborder="0">
+</iframe>
+
+</html>
