@@ -68,7 +68,7 @@ body {
 
 /* Main Section */
 .main {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/TreeBackground.jpg') no-repeat center center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/TreeBackground.png') no-repeat center center fixed;
     background-size: cover;
     background-position: center;
     height: 100vh;
