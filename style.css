@@ -68,14 +68,16 @@ body {
 
 /* Main Section */
 .main {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/TreeBackGround.png') no-repeat center center fixed;
-    background-size: cover;
-    background-position: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/TreeBackGround.png');
+    background-repeat: repeat-x; /* Allow horizontal repetition to prevent gaps */
+    background-size: auto 100%; /* Maintain height, allow width to scale naturally */
+    background-position: center center; /* This will be overridden by JavaScript */
     height: 100vh;
     display: flex;
     align-items: center;
     position: relative;
     margin-top: 60px;
+    will-change: background-position;
 }
 
 .main-content {
