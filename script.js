@@ -14,5 +14,4 @@ window.addEventListener('scroll', () => {
     }
 });
 
-// Optional: Add smooth scrolling behavior
 document.documentElement.style.scrollBehavior = 'smooth';
